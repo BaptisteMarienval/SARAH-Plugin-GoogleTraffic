@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "googletraffic"  : {
+      "description": "Donne l'état du traffic Google",
+      "version"    : "1.0",
+	  "home"	: "[Home Address Google Format]",
+	  "office"	: "[Office Address Google Format]"
+    }
+  }
+}

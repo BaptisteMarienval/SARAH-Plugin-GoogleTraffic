@@ -1,0 +1,28 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleGoogleTraffic" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleGoogleTraffic" scope="public">
+	<example>Sarah quel temps me faut il pour aller au boulot ?</example>
+    <tag>out.action=new Object(); </tag>
+    
+    <item weight="2">Sarah</item>
+    
+    <one-of>      
+	  <item>quel temps me faut il</item>
+	  <item>quel est le traffic</item>
+	  <item>il faut combien de temps</item>
+    </one-of>
+     <one-of>      
+	  <item>jusqu'au bureau</tag></item>
+	  <item>pour aller au bureau</tag></item>
+	  <item>pour aller bosser</tag></item>
+    </one-of>
+	<item repeat="0-1">
+	<one-of>      
+	  <item>en marchant<tag>out.action.locomotion="marche";</tag></item>
+	  <item>à pied<tag>out.action.locomotion="marche";</tag></item>
+	  <item>en voiture<tag>out.action.locomotion="car";</tag></item>
+	  <item>à vélo<tag>out.action.locomotion="bike";</tag></item>
+    </one-of>
+	</item>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/googletraffic";</tag>
+  </rule> 
+</grammar>
