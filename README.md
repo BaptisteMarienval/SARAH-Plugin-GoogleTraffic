@@ -34,7 +34,7 @@ on top of:
 
 ## Description
 
-This plugin is a connector for [Zibase](http://www.zodianet.com/) device.
+This plugin is a scrapper for google maps traffic service.
 
 
 ## Quick Start
