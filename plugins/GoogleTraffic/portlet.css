@@ -1,10 +1,9 @@
-
-.plugin-gridster.zibase .front {
+.plugin-gridster.googletraffic.front {
   background: #FFFFFF url('images/gmap_logo.jpg') center 25px;
   background-size:   160px 100px;
   background-repeat: no-repeat;
 }
 
-.plugin-gridster.zibase .back {
+.plugin-gridster.googletraffic.back {
   background: #FFFFFF;
 }
