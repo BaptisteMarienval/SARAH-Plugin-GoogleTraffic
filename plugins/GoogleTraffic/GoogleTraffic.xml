@@ -11,9 +11,9 @@
 	  <item>il faut combien de temps</item>
     </one-of>
      <one-of>      
-	  <item>jusqu'au bureau</tag></item>
-	  <item>pour aller au bureau</tag></item>
-	  <item>pour aller bosser</tag></item>
+	  <item>jusqu'au bureau</item>
+	  <item>pour aller au bureau</item>
+	  <item>pour aller bosser</item>
     </one-of>
 	<item repeat="0-1">
 	<one-of>      
